@@ -11,13 +11,13 @@ namespace Tests
         [SetUp]
         public void Setup()
         {
-            this.person = new Person();
+            this.person = new Person("Juan","5.599.661-2");
         }
 
         [Test]
-        public void Cedula_Valida() // Cambiá el nombre para indicar qué estás probando
+        public void Id_Valida() // Cambiá el nombre para indicar qué estás probando
         {
-            var 
+            
         }
     }
 }

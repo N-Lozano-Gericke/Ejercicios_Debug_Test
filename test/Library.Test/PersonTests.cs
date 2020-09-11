@@ -4,18 +4,20 @@ using UnitTestAndDebug;
 
 namespace Tests
 {
-    public class Tests
+    public class PersonTests
     {
+        private Person person;
+
         [SetUp]
         public void Setup()
         {
-            // Insertá tu código de inicialización aquí
+            this.person = new Person();
         }
 
         [Test]
-        public void Test1() // Cambiá el nombre para indicar qué estás probando
+        public void Cedula_Valida() // Cambiá el nombre para indicar qué estás probando
         {
-            // Insertá tu código  de pruebaaquí
+            var 
         }
     }
 }

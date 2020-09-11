@@ -15,8 +15,9 @@ namespace Tests
         }
 
         [Test]
-        public void Id_Valida() // Cambiá el nombre para indicar qué estás probando
+        public void Id_NotNull() // Cambiá el nombre para indicar qué estás probando
         {
+            var cedula = this.person.ID;
             
         }
     }

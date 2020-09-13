@@ -15,10 +15,22 @@ namespace Tests
         }
 
         [Test]
-        public void Id_NotNull() // Cambiá el nombre para indicar qué estás probando
+        public void Id_NotNull() 
         {
             var cedula = this.person.ID;
-            
+            var resultado = IdUtils.IdIsValid(cedula);
+            bool resultadoesperado = true;
+            Assert.AreEqual(resultadoesperado, cedula);
+        
+        }
+        [Test]
+        public void name_NotNull() 
+        {
+            var name = this.person.Name;
+            var resultado = IdUtils.IdIsValid(name);
+            bool resultadoesperado = true;
+            Assert.AreEqual(resultadoesperado, name);
+        
         }
     }
 }
